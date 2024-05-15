@@ -1,0 +1,41 @@
+.App {
+  text-align: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+}
+
+.Box {
+  padding: 20px;
+  margin: 20px;
+  background-color: white;
+  border-radius: 5px;
+  box-shadow: 10px 10px 50px rgb(43, 42, 42);
+  border: 1px solid #ccc;     
+  min-height: 100px;         
+  width: auto;               
+  max-width: 50%;             
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);  
+}
+
+.h2 {
+  font-family: 'Times New Roman', Times, sans-serif; 
+}
+
+.h4 {
+  font-family: cursive;
+}
+
+.button {
+  color: white;
+  border-radius: 50px;
+  border: none;
+  padding: 9px;
+  margin-left:70%;
+  
+}
